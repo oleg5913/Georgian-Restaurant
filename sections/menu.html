@@ -1,0 +1,540 @@
+<script>
+    $(document).ready(function() {
+    $('li').click(function(event) {
+        var click_target = event.target.id;
+        $('.main_container').load('sections/' + click_target + '.html');
+    })
+})//end ready
+</script>
+
+<nav class="section_choice">
+    <ul>
+        <li class="choice_button" id="menu">МЕНЮ</p>
+        <li class="choice_button" id="bar">БАРНАЯ КАРТА</p>
+    </ul>
+</nav>
+
+<div class="menu_container">
+    <div class="menu_section">
+        <h1 class="section_title">ЗАКУСКИ</h3>
+        <div class="dish menu_bt">
+            <p class="cost">260р</p>
+            <h2 class="dish_name">САЦИВИ С КУРИЦЕЙ</h2>
+            <p class="weight">/200г</p>
+            <p class="dish_description">Нежное куриное филе под пряным ореховым соусом</p>
+        </div>
+        <div class="dish">
+            <p class="cost">250р</p>
+            <h2 class="dish_name">АССОРТИ ПХАЛИ</h2>
+            <p class="weight">/150г</p>
+            <p class="dish_description">Паштет из грецкого ореха со свёклой / шпинатом / фасолью</p>
+        </div>
+        <div class="dish">
+            <p class="cost">250р</p>
+            <h2 class="dish_name">АССОРТИ ДОМАШНИХ СЫРОВ</h2>
+            <div class="weight">/100/70г</div>
+            <p class="dish_description">Имеретинский, копченый Чечил, Сулугуни, подается с тыквенным вареньем</p>    
+        </div>
+        <div class="dish">
+            <p class="cost">280р</p>
+            <h2 class="dish_name">РУЛЕТИКИ ИЗ БАКЛАЖАН</h2>
+            <div class="weight">/150г</div>
+            <p class="dish_description">Баклажаны с начинкой из грецкого ореха со специями</p>    
+        </div>
+    </div>
+    <div class="menu_section">
+        <h1 class="section_title">ГОРЯЧИЕ ЗАКУСКИ</h1>
+        <div class="dish menu_bt">
+            <p class="cost">350р</p>
+            <h2 class="dish_name">СУДАК В СОУСЕ БАЖИ</h2>
+            <p class="weight">/200г</p>
+            <p class="dish_description">Обжаренное филе судака, ореховый соус с Наршарабом и грузинскими специями</p>
+        </div>
+        <div class="dish">
+            <p class="cost">330р</p>
+            <h2 class="dish_name">ГРИБЫ НА КЕЦИ</h2>
+            <p class="weight">/150г</p>
+            <p class="dish_description">Грибные шляпки, фаршированные сыром сулугуни</p>
+        </div>
+        <div class="dish">
+            <p class="cost">250р</p>
+            <h2 class="dish_name">ЗАПЕЧЕНЫЙ СУЛУГУНИ</h2>
+            <p class="weight">/180г</p>
+            <p class="dish_description">Подается с соусом Наршараб</p>
+        </div>
+        <div class="dish">
+            <p class="cost">190р</p>
+            <h2 class="dish_name">ЛОБИО ТОМЛЕНЫЙ</h2>
+            <p class="weight">250г</p>
+            <p class="dish_description">Традиционная грузинская закуска из красной с острым томатным соусом сацебели</p>
+        </div>
+        <div class="dish">
+            <p class="cost">250р</p>
+            <h2 class="dish_name">КОПЧЕНЫЙ СУЛУГУНИ</h2>
+            <p class="weight">/60/30/30г</p>
+            <p class="dish_description">Во фритюре</p>
+        </div>
+    </div>
+        
+
+    <div class="menu_section">
+        <h1 class="section_title">САЛАТЫ</h1>
+        <div class="dish menu_bt">
+            <p class="cost">170р</p>
+            <h2 class="dish_name">САЛАТ ПО-ТБИЛИССКИ</h2>
+            <p class="weight">/150г</p>
+            <p class="dish_description">Южные баклажаны с национальными специями и грецким орехом</p>
+        </div>
+        <div class="dish">
+            <p class="cost">150р</p>
+            <h2 class="dish_name">СО СВАНСКОЙ СОЛЬЮ</h2>
+            <p class="weight">/150г</p>
+            <p class="dish_description">Овощной салат из томатов, огурцов и болгарского перца с ароматной зеленью, сванской солью и специями/p>
+        </div>
+        <div class="dish">
+            <p class="cost">220р</p>
+            <h2 class="dish_name">АДЖАПСАНДАЛИ</h2>
+            <p class="weight">/150г</p>
+            <p class="dish_description">Тушеные овощи: баклажан, томат, перец, лук с добавлением чили перца и специй</p>
+        </div>
+        <div class="dish">
+            <p class="cost">230р</p>
+            <h2 class="dish_name">ГНЕЗДО ФАЗАНА</h2>
+            <p class="weight">/200г</p>
+            <p class="dish_description">Куриное филе, маринованные огурцы, картофель пай, перепелиное яйцо, шафрановый айоли</p>
+        </div>
+        <div class="dish">
+            <p class="cost">250р</p>
+            <h2 class="dish_name">МЕТЕХИ</h2>
+            <p class="weight">/150г</p>
+            <p class="dish_description">Томаты черри, баклажаны, сливочный сыр под соусом Наршараб</p>
+        </div>
+    </div>
+   
+
+    <div class="menu_section">
+        <h1 class="section_title">ГОРЯЧИЕ БЛЮДА</h1>
+        <div class="dish menu_bt">
+            <p class="cost">260р</p>
+            <h2 class="dish_name">ДОЛМА</h2>
+            <p class="weight">/140/30г</p>
+            <p class="dish_description">Пряный домашний фарш в виноградных листьях с соусом Мацони</p>
+        </div>
+        <div class="dish">
+            <p class="cost">270р</p>
+            <h2 class="dish_name">ЧАХОХБИЛИ</h2>
+            <p class="weight">200г</p>
+            <p class="dish_description">Куриное бедро в томатном соусе с добавлением овощей</p>
+        </div>
+        <div class="dish">
+            <p class="cost">460р</p>
+            <h2 class="dish_name">ЦЫПЛЁНОК ТАБАКА</h2>
+            <p class="weight">/320/40г</p>
+            <p class="dish_description"></p>
+        </div>
+        <div class="dish">
+            <p class="cost">350р</p>
+            <h2 class="dish_name">ЦЫПЛЁНОК ПО-ЧКМЕРСКИ</h2>
+            <p class="weight">/320г</p>
+            <p class="dish_description">Сочная ножка с хрустящей корочкой в сливочном соусе</p>
+        </div>
+        <div class="dish">
+            <p class="cost">360р</p>
+            <h2 class="dish_name">ОДЖАХУРИ</h2>
+            <p class="weight">/300г</p>
+            <p class="dish_description">Жареная свинина и картофель, подаются с подпеченым перцем, томатами и ялтинским луком</p>
+        </div>
+        <div class="dish">
+            <p class="cost">360р</p>
+            <h2 class="dish_name">ЧАШУШУЛИ</h2>
+            <p class="weight">/200г</p>
+            <p class="dish_description">Тушеная говядна с овощами с добавлением множества специй и зелени</p>
+        </div>
+    </div>
+    <div class="menu_section">
+        <h1 class="section_title">Супы</h1>
+        <div class="dish menu_bt">
+            <p class="cost">160р</p>
+            <h2 class="dish_name">ТЫКВЕННЫЙ СУП С ИМЕРЕТИНСКИМ ШАФРАНОМ</h2>
+            <p class="weight">/250г</p>
+            <p class="dish_description">Легкий тыквенно-овощной суп с семенами тыквы</p>
+        </div>
+        <div class="dish">
+            <p class="cost">200р</p>
+            <h2 class="dish_name">КУРИНЫЙ СУП С МИНИ ХИНКАЛИ</h2>
+            <p class="weight">/250г</p>
+            <p class="dish_description">Куриный суп с овощами и хинкали с пряной куриной начинкой</p>
+        </div>
+        <div class="dish">
+            <p class="cost">260р</p>
+            <h2 class="dish_name">ХАРЧО</h2>
+            <p class="weight">/250г</p>
+            <p class="dish_description">Наваристый суп с говядиной, рисом и овощами с добавлением ароматных специй</p>
+        </div>
+        <div class="dish">
+            <p class="cost">330р</p>
+            <h2 class="dish_name">ЧАКАПУЛИ</h2>
+            <p class="weight">/250г</p>
+            <p class="dish_description">Легкий и сытный бульон с бараниной и травами</p>
+        </div>
+    </div>
+    <div class="menu_section">
+        <h1 class="section_title">ГАРНИРЫ</h1>
+            <div class="dish menu_bt">
+                <p class="cost">90р</p>
+                <h2 class="dish_name">ОВОЩИ НА ПАРУ</h2>
+                <p class="weight">/120г</p>
+                <p class="dish_description"></p>
+            </div>
+            <div class="dish">
+                <p class="cost">90р</p>
+                <h2 class="dish_name">ЗАПЕЧЕНЫЕ КАРТОФЕЛЬНЫЕ ДОЛЬКИ</h2>
+                <p class="weight">/150г</p>
+                <p class="dish_description"></p>
+            </div>
+            <div class="dish">
+                <p class="cost">120р</p>
+                <h2 class="dish_name">ШПИНАТ В СЛИВКАХ</h2>
+                <p class="weight">/120г</p>
+                <p class="dish_description"></p>
+            </div>
+            <div class="dish">
+                <p class="cost">150р</p>
+                <h2 class="dish_name">ОВОЩИ ГРИЛЬ</h2>
+                <p class="weight">/200г</p>
+                <p class="dish_description"></p>
+            </div>
+    </div>
+    <div class="menu_section">
+        <h1 class="section_title">ХИНКАЛИ</h1>
+            <div class="dish menu_bt">
+                <p class="cost">80р</p>
+                <h2 class="dish_name">С ГОВЯДИНОЙ</h2>
+                <p class="weight">/1шт/80г</p>
+                <p class="dish_description">С луком, зеленью, чесноком и перцем чили</p>
+            </div>
+            <div class="dish">
+                <p class="cost">75р</p>
+                <h2 class="dish_name">С БАРАНИНОЙ</h2>
+                <p class="weight">/1шт/80г</p>
+                <p class="dish_description"></p>
+            </div>
+            <div class="dish">
+                <p class="cost">70р</p>
+                <h2 class="dish_name">ДОМАШНИЕ</h2>
+                <p class="weight">/1шт/80г</p>
+                <p class="dish_description">Хинкали с фаршем из свинины и говядины</p>
+            </div>
+            <div class="dish">
+                <p class="cost">70р</p>
+                <h2 class="dish_name">РУБЛЕННЫЕ</h2>
+                <p class="weight">/1шт/80г</p>
+                <p class="dish_description">Хинкали с рубленым мясом свинины и говядины</p>
+            </div>
+            <div class="dish">
+                <p class="cost">70р</p>
+                <h2 class="dish_name">С СЫРОМ И ШПИНАТОМ</h2>
+                <p class="weight">/1шт/80г</p>
+                <p class="dish_description"></p>
+            </div>
+            <div class="dish">
+                <p class="cost">70р</p>
+                <h2 class="dish_name">С СЫРОМ И ГРИБАМИ</h2>
+                <p class="weight">/1шт/80г</p>
+                <p class="dish_description"></p>
+            </div>
+    </div>
+    <div class="menu_section">
+        <h1 class="section_title">СОУСЫ</h1>
+        <div class="dish menu_bt">
+            <p class="cost">50р</p>
+            <p class="weight">/Наршараб/Сацебели/Мацони/Сметана/Мёд/40г</p>
+        </div>
+        
+    </div>
+    <div class="menu_section">
+        <h1 class="section_title">ХАЧАПУРИ</h1>
+            <div class="dish menu_bt">
+                <p class="cost">180/340р</p>
+                <h2 class="dish_name">ПО-ИМЕРЕТИНСКИ</h2>
+                <p class="weight">/230/460г</p>
+                <p class="dish_description">Лепешка с начинкой из имеретинского и мегрельского сыра</p>
+            </div>
+            <div class="dish">
+                <p class="cost">180/340р</p>
+                <h2 class="dish_name">ПО-МЕГРЕЛЬСКИ</h2>
+                <p class="weight">/230/460г</p>
+                <p class="dish_description">Лепешка с начинкой из имеретинского сыра и сулугуни, с румяной сырной шапки</p>
+            </div>
+            <div class="dish">
+                <p class="cost">200/380р</p>
+                <h2 class="dish_name">ПО-АДЖАРСКИ</h2>
+                <p class="weight">/250/500г</p>
+                <p class="dish_description">Лодочка с мегрельским и имеретинским сыром, яйцом и сливочным маслом</p>
+            </div>
+            <div class="dish">
+                <p class="cost">260/470р</p>
+                <h2 class="dish_name">"МХЛОВАНИ"</h2>
+                <p class="weight">/220/440г</p>
+                <p class="dish_description">Лепешка с начинкой из шпината, сыра сулугуни и зелени</p>
+            </div>
+            <div class="dish">
+                <p class="cost">160/290р</p>
+                <h2 class="dish_name">"ЛОБИАНИ"</h2>
+                <p class="weight">/200/500г</p>
+                <p class="dish_description">Лепешка с начинкой из красной фалсоли, лука и специй</p>
+            </div>
+            <div class="dish">
+                <p class="cost">200/380р</p>
+                <h2 class="dish_name">"КУБДАРИ"</h2>
+                <p class="weight">/260/520г</p>
+                <p class="dish_description">Лепешка с начинкой рубленого мяса курицы с добавлением специй</p>
+            </div>
+            <div class="dish">
+                <p class="cost">50р</p>
+                <h2 class="dish_name">ГРУЗИНСКИЙ ХЛЕБ</h2>
+                <p class="weight">/120г</p>
+                <p class="dish_description"></p>
+            </div>
+    </div>
+    <div class="menu_section">
+        <h1 class="section_title">Десерты</h1>
+            <div class="dish menu_bt">
+                <p class="cost">90р</p>
+                <h2 class="dish_name">ХВОРОСТ С МЕДОМ</h2>
+                <p class="weight">/100г</p>
+                <p class="dish_description"></p>
+            </div>
+            <div class="dish">
+                <p class="cost">140р</p>
+                <h2 class="dish_name">ДОМАШНИЙ ГРУЗИНСКИЙ ТОРТ</h2>
+                <p class="weight">/110г</p>
+                <p class="dish_description">Воздушный бисквит с домашним заварным кремом</p>
+            </div>
+            <div class="dish">
+                <p class="cost">140р</p>
+                <h2 class="dish_name">ДОМАШНЯЯ ПАХЛАВА</h2>
+                <p class="weight">/120г</p>
+                <p class="dish_description">Тонкое хрустящее тесто с ореховой прослойкой в медовой пропитке</p>
+            </div>
+            <div class="dish">
+                <p class="cost">140р</p>
+                <h2 class="dish_name">МАЦОНИ С МЕДОМ</h2>
+                <p class="weight">/100г</p>
+                <p class="dish_description">И карамелизированными орехами</p>
+            </div>
+            <div class="dish">
+                <p class="cost">140р</p>
+                <h2 class="dish_name">ПТИЧЬЕ МОЛОКО</h2>
+                <p class="weight">/110г</p>
+                <p class="dish_description">Воздушное суфле на ароматном пивном корже со специями</p>
+            </div>
+            <div class="dish">
+                <p class="cost">120р</p>
+                <h2 class="dish_name">ХВОРОСТ</h2>
+                <p class="weight">/100г</p>
+                <p class="dish_description"></p>
+            </div>
+            <div class="dish">
+                <p class="cost">180р</p>
+                <h2 class="dish_name">СЫРНЫЙ ТОРТ С ТЫКВЕННЫМ ВАРЕНЬЕМ</h2>
+                <p class="weight">/160г</p>
+                <p class="dish_description">Нежный сливочно-сырный торт на песочной основе с карамельной коркой</p>
+            </div>
+            <div class="dish">
+                <p class="cost">65р</p>
+                <h2 class="dish_name">МОРОЖЕНОЕ</h2>
+                <p class="weight">/50г</p>
+                <p class="dish_description">Пломбир или шоколад</p>
+            </div>
+    </div>
+    <div class="menu_section">
+        <h1 class="section_title">ДОМАШНИЕ ЧАИ</h1>
+            <div class="dish menu_bt">
+                <p class="cost">140р</p>
+                <h2 class="dish_name">ГРУЗИНСКИЙ ПРЯНЫЙ ЧАЙ</h2>
+                <p class="weight">400мл</p>
+                <p class="dish_description"></p>
+            </div>
+            <div class="dish">
+                <p class="cost">140р</p>
+                <h2 class="dish_name">КРАСНЫЙ С ГРАНАТОМ</h2>
+                <p class="weight">/400мл</p>
+                <p class="dish_description"></p>
+            </div>
+    </div>
+    <div class="menu_section">
+        <h1 class="section_title">ЧАЙ</h1>
+            <div class="dish menu_bt">
+                <p class="cost">120р</p>
+                <h2 class="dish_name">ЧЕРНЫЙ</h2>
+                <p class="weight">Ассам/ Эрл Грей/ С чабрецом</p>
+                <p class="dish_description"></p>
+            </div>
+            <div class="dish">
+                <p class="cost">120р</p>
+                <h2 class="dish_name">ЗЕЛЕНЫЙ</h2>
+                <p class="weight">Сенча/ Жасмин</p>
+                <p class="dish_description"></p>
+            </div>
+            <div class="dish">
+                <p class="cost">120р</p>
+                <h2 class="dish_name">КРАСНЫЙ</h2>
+                <p class="weight">Каркадэ</p>
+                <p class="dish_description"></p>
+            </div>
+            <div class="dish">
+                <p class="cost">200р</p>
+                <h2 class="dish_name">ОБЛЕПИХОВЫЙ</h2>
+                <p class="weight"></p>
+                <p class="dish_description"></p>
+            </div>
+            <div class="dish">
+                <p class="cost">200р</p>
+                <h2 class="dish_name">СМОРОДИНОВЫЙ</h2>
+                <p class="weight"></p>
+                <p class="dish_description"></p>
+            </div>
+    </div>
+    <div class="menu_section">
+        <h1 class="section_title">КОФЕ</h1>
+            <div class="dish menu_bt">
+                <p class="cost">90р</p>
+                <h2 class="dish_name">ЭСПРЕССО</h2>
+                <p class="weight">40мл</p>
+                <p class="dish_description"></p>
+            </div>
+            <div class="dish">
+                <p class="cost">90р</p>
+                <h2 class="dish_name">АМЕРИКАНО</h2>
+                <p class="weight">150мл</p>
+                <p class="dish_description"></p>
+            </div>
+            <div class="dish">
+                <p class="cost">120р</p>
+                <h2 class="dish_name">КАПУЧИНО</h2>
+                <p class="weight">200мл</p>
+                <p class="dish_description"></p>
+            </div>
+            <div class="dish">
+                <p class="cost">130р</p>
+                <h2 class="dish_name">ЛАТТЕ</h2>
+                <p class="weight">220мл</p>
+                <p class="dish_description"></p>
+            </div>
+            <div class="dish">
+                <p class="cost">160р</p>
+                <h2 class="dish_name">ФЛЭТ УАЙТ</h2>
+                <p class="weight">250мл</p>
+                <p class="dish_description"></p>
+            </div>
+    </div>
+    <div class="menu_section">
+        <h1 class="section_title">ДОБАВЬТЕ К НАПИТКАМ</h1>
+            <div class="dish menu_bt">
+                <p class="cost">40р</p>
+                <p class="weight">Молоко/ сливки/ мёд</p>
+                <p class="weight">Сироп: орех/ ваниль/ миндаль</p>
+            </div>
+        </h1>
+    </div>
+    <div class="menu_section">
+        <h1 class="section_title">ВОДА</h1>
+            <div class="dish menu_bt">
+                <p class="cost">80р</p>
+                <h2 class="dish_name">АКВА РУССА</h2>
+                <p class="weight">/300мл</p>
+                <p class="dish_description">без газа/ с газом</p>
+            </div>
+            <div class="dish">
+                <p class="cost">160р</p>
+                <h2 class="dish_name">САИРМЕ</h2>
+                <p class="weight">/500мл</p>
+                <p class="dish_description">без газа/ с газом</p>
+            </div>
+    </div>
+    <div class="menu_section">
+        <h1 class="section_title">КОМПОТЫ И МОРС</h1>
+            <div class="dish menu_bt">
+                <p class="cost">50/250р</p>
+                <h2 class="dish_name">ПРЯНЫЙ КОМПОТ С ЯБЛОКАМИ И ВИШНЕЙ</h2>
+                <p class="weight">/200/1000мл</p>
+                <p class="dish_description"></p>
+            </div>
+            <div class="dish">
+                <p class="cost">65/325р</p>
+                <h2 class="dish_name">КОМПОТ ИЗ КИЗИЛА</h2>
+                <p class="weight">/200/1000мл</p>
+                <p class="dish_description"></p>
+            </div>
+            <div class="dish">
+                <p class="cost">40/200р</p>
+                <h2 class="dish_name">МОРС ОБЛЕПИХОВЫЙ</h2>
+                <p class="weight">/200/1000мл</p>
+                <p class="dish_description"></p>
+            </div>
+    </div><div class="menu_section">
+        <h1 class="section_title">ЛИМОНАДЫ И СОК</h1>
+            <div class="dish menu_bt">
+                <p class="cost">130р</p>
+                <h2 class="dish_name">НАТАХТАРИ</h2>
+                <p class="weight"> Тархун/ груша/ лимон/ саперави/ 500мл</p>
+                <p class="dish_description"></p>
+            </div>
+            <div class="dish">
+                <p class="cost">90р</p>
+                <h2 class="dish_name">АПЕЛЬСИН И КОФЕ</h2>
+                <p class="weight">/400мл</p>
+                <p class="dish_description"></p>
+            </div>
+            <div class="dish">
+                <p class="cost">100р</p>
+                <h2 class="dish_name">СМОРОДИНА И ОГУРЕЦ</h2>
+                <p class="weight">/400мл</p>
+                <p class="dish_description"></p>
+            </div>
+            <div class="dish">
+                <p class="cost">50/ 250р</p>
+                <h2 class="dish_name">СОК</h2>
+                <p class="weight">/200 /1000мл <br> Яблоко/ апельсин/ персик/ вишня/ томат</p>
+                <p class="dish_description"></p>
+            </div>
+    </div>
+    <div class="menu_section">
+        <h1 class="section_title">ПИВО В КРУЖКАХ</h1>
+            <div class="dish menu_bt">
+                <p class="cost">90/ 150р</p>
+                <h2 class="dish_name">КИДЭ СВЕТЛОЕ</h2>
+                <p class="weight">/300/ 500мл</p>
+                <p class="dish_description"></p>
+            </div>
+            <div class="dish">
+                <p class="cost">100/ 160р</p>
+                <h2 class="dish_name">КИДЭ НЕФИЛЬТРОВАННОЕ</h2>
+                <p class="weight">/300/ 500мл</p>
+                <p class="dish_description"></p>
+            </div>
+    </div>
+    <div class="menu_section">
+        <h1 class="section_title">ПИВО В БУТЫЛКАХ</h1>
+            <div class="dish menu_bt">
+                <p class="cost">210р</p>
+                <h2 class="dish_name">АРГО СВЕТЛОЕ</h2>
+                <p class="weight">/500мл</p>
+                <p class="dish_description"></p>
+            </div>
+            <div class="dish">
+                <p class="cost">210р</p>
+                <h2 class="dish_name">АРГО ТЁМНОЕ</h2>
+                <p class="weight">/500мл</p>
+                <p class="dish_description"></p>
+            </div>
+            <div class="dish">
+                <p class="cost">150р</p>
+                <h2 class="dish_name">КРОНЕНБЕРГ</h2>
+                <p class="weight">/Безалкогольное/ 330мл</p>
+                <p class="dish_description"></p>
+            </div>
+    </div>
+
+</div>

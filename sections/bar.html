@@ -1,0 +1,197 @@
+<script>
+    $(document).ready(function() {
+    $('li').click(function(event) {
+        var click_target = event.target.id;
+        $('.main_container').load('sections/' + click_target + '.html');
+        $('.navigation_mobile').fadeOut(1);
+    })
+})//end ready
+</script>
+
+<nav class="section_choice">
+    <ul>
+        <li class="choice_button" id="menu">МЕНЮ</p>
+        <li class="choice_button" id="bar">БАРНАЯ КАРТА</p>
+    </ul>
+</nav>
+
+<div class="menu_container">
+    <div class="menu_section">
+        <h1 class="section_title">КРАСНЫЕ ВИНА ПО БОКАЛАМ /150мл</h1>
+        <div class="dish menu_bt">
+            <p class="cost">200р</p>
+            <h2 class="dish_name">ПИРОСМАНИ ПАЛАВАНИ</h2>
+            <p class="weight">/Полусладкое/ Грузия</p>
+            <p class="dish_description"></p>
+        </div>
+        <div class="dish">
+            <p class="cost">200р</p>
+            <h2 class="dish_name">САПЕРАВИ ПАЛАВАНИ</h2>
+            <p class="weight">/Сухое/ Грузия</p>
+            <p class="dish_description"></p>
+        </div>
+        <div class="dish">
+            <p class="cost">250р</p>
+            <h2 class="dish_name">НЕРО Д'АВОЛА</h2>
+            <p class="weight">/Сухое/ Италия</p>
+            <p class="dish_description"></p>
+        </div>
+    </div>
+    <div class="menu_section">
+        <h1 class="section_title">БЕЛЫЕ ВИНА ПО БОКАЛАМ /150мл</h1>
+        <div class="dish menu_bt">
+            <p class="cost">200р</p>
+            <h2 class="dish_name">АЛАЗАНСКАЯ ДОЛИНА ПАЛАВАНИ</h2>
+            <p class="weight">/Полусладкое/ Грузия</p>
+            <p class="dish_description"></p>
+        </div>
+        <div class="dish">
+            <p class="cost">200р</p>
+            <h2 class="dish_name">РКАЦИТЕЛИ ПАЛАВАНИ</h2>
+            <p class="weight">/Сухое/ Грузия</p>
+            <p class="dish_description"></p>
+        </div>
+        <div class="dish">
+            <p class="cost">180р</p>
+            <h2 class="dish_name">ПИНО ГРИДЖИО</h2>
+            <p class="weight">/Сухое/ Италия</p>
+            <p class="dish_description"></p>
+        </div>
+    </div>
+    <div class="menu_section">
+        <h1 class="section_title">КРАСНЫЕ ВИНА /750мл</h1>
+        <div class="dish menu_bt">
+            <p class="cost">1 500р</p>
+            <h2 class="dish_name">АРАБЕСКИ МУКУЗАНИ</h2>
+            <p class="weight">/Сухое/ Грузия</p>
+            <p class="dish_description"></p>
+        </div>
+        <div class="dish">
+            <p class="cost">1 800р</p>
+            <h2 class="dish_name">САПЕРАВИ КВЕВРИ</h2>
+            <p class="weight">/Сухое/ Грузия</p>
+            <p class="dish_description"></p>
+        </div>
+        <div class="dish">
+            <p class="cost">1 500р</p>
+            <h2 class="dish_name">КИНДЗМАРАУЛИ ПАЛАВАНИ</h2>
+            <p class="weight">/Полусладкое/ Грузия</p>
+            <p class="dish_description"></p>
+        </div>
+        <div class="dish">
+            <p class="cost">1 250р</p>
+            <h2 class="dish_name">НЕРО Д'АВОЛА</h2>
+            <p class="weight">/Сухое/ Италия</p>
+            <p class="dish_description"></p>
+        </div>
+    </div>
+    <div class="menu_section">
+        <h1 class="section_title">БЕЛЫЕ ВИНА /750мл</h1>
+        <div class="dish menu_bt">
+            <p class="cost">1 500р</p>
+            <h2 class="dish_name">АРАБЕСКИ ЦИНАНДАЛИ</h2>
+            <p class="weight">/Сухое/ Грузия</p>
+            <p class="dish_description"></p>
+        </div>
+        <div class="dish">
+            <p class="cost">1 800р</p>
+            <h2 class="dish_name">РКАЦИТЕЛИ КВЕВРИ ПАЛАВАНИ</h2>
+            <p class="weight">/Сухое/ Грузия</p>
+            <p class="dish_description"></p>
+        </div>
+        <div class="dish">
+            <p class="cost">1 250р</p>
+            <h2 class="dish_name">ПИНО ГРИДЖИО</h2>
+            <p class="weight">/Сухое/ Италия</p>
+            <p class="dish_description"></p>
+        </div>
+        <div class="dish">
+            <p class="cost">1 250р</p>
+            <h2 class="dish_name">ПАВАО ЭСКОЛЬЯ ВИНЬЮ ВЕРДЕ</h2>
+            <p class="weight">/Полусладкое/ Португалия</p>
+            <p class="dish_description"></p>
+        </div>
+    </div>
+    <div class="menu_section">
+        <h1 class="section_title">РОЗОВОЕ /750мл</h1>
+        <div class="dish menu_bt">
+            <p class="cost">1 250р</p>
+            <h2 class="dish_name">КАЛИСА ЛА МАНЧА ДО</h2>
+            <p class="weight">/Полусухое/ Италия</p>
+            <p class="dish_description"></p>
+        </div>
+    </div>
+    <div class="menu_section">
+        <h1 class="section_title">ИГРИСТЫЕ ВИНА/ Италия/ 750мл</h1>
+        <div class="dish menu_bt">
+            <p class="cost">1 200р</p>
+            <h2 class="dish_name">КАВА НУВИАНА</h2>
+            <p class="weight">/Белое/ Сухое/ Испания</p>
+            <p class="dish_description"></p>
+        </div>
+        <div class="dish">
+            <p class="cost">1 400р</p>
+            <h2 class="dish_name">ЛАМБРУСКО ДЕЛЛОРО</h2>
+            <p class="weight">/Белое/ Полусладкое/ Италия</p>
+            <p class="dish_description"></p>
+        </div>
+    </div>
+    <div class="menu_section">
+        <h1 class="section_title">КРЕПКИЕ НАПИТКИ/ 50мл</h1>
+        <div class="dish menu_bt">
+            <p class="cost">200р</p>
+            <h2 class="dish_name">ЧАЧА ОЧАМЧЫРА</h2>
+            <p class="weight">/Абхазия</p>
+            <p class="dish_description"></p>
+        </div>
+        <div class="dish">
+            <p class="cost">150р</p>
+            <h2 class="dish_name">ВОДКА ЦАРСКАЯ ОРИГИНАЛЬНАЯ</h2>
+            <p class="weight">/Россия</p>
+            <p class="dish_description"></p>
+        </div>
+        <div class="dish">
+            <p class="cost">200р</p>
+            <h2 class="dish_name">БРЕНДИ АРГАМАК №7</h2>
+            <p class="weight">/Армения</p>
+            <p class="dish_description"></p>
+        </div>
+        <div class="dish">
+            <p class="cost">300р</p>
+            <h2 class="dish_name">ВИСКИ ДЖЕМЕСОН</h2>
+            <p class="weight">/Ирландия</p>
+            <p class="dish_description"></p>
+        </div>
+        <div class="dish">
+            <p class="cost">160р</p>
+            <h2 class="dish_name">ДЖИН БАРРИСТЕР ДРАЙ</h2>
+            <p class="weight">/Россия</p>
+            <p class="dish_description"></p>
+        </div>
+    </div>
+    <div class="menu_section">
+        <h1 class="section_title">ВЕРМУТЫ/ Италия/ 50мл</h1>
+        <div class="dish menu_bt">
+            <p class="cost">160р</p>
+            <h2 class="dish_name">МАРТИНИ БЬЯНКО</h2>
+            <p class="weight">/Фиерро</p>
+            <p class="dish_description"></p>
+        </div>
+    </div>
+    <div class="menu_section">
+        <h1 class="section_title">СОБСТВЕННЫЕ НАПИТКИ</h1>
+        <div class="dish menu_bt">
+            <p class="cost">150р</p>
+            <h2 class="dish_name">ФИРМЕННАЯ НАСТОЙКА КИДЭ</h2>
+            <p class="weight">/50мл</p>
+            <p class="dish_description"></p>
+        </div>
+        <div class="dish">
+            <p class="cost">200р</p>
+            <h2 class="dish_name">ГЛИНТВЕЙН</h2>
+            <p class="weight">/50мл</p>
+            <p class="dish_description"></p>
+        </div>
+    </div>
+</div>
+

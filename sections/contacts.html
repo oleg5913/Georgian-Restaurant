@@ -1,0 +1,27 @@
+<script>
+    $(document).ready(function() {
+    $('li').click(function(event) {
+        var click_target = event.target.id;
+        $('.main_container').load('sections/' + click_target + '.html');
+        $('.navigation_mobile').fadeOut(1);
+    })
+})//end ready
+</script>
+<div class="contacts_container bb">
+    <div class="contacts_info">
+        <p>Телефон: +7 343 346-80-59</p>
+        <p>Как нас найти: ул. Луначарского, 84</p>
+        <p>График работы: Пн-Чт, Вс 12:00-22:00 <br> Пт-Сб 12:00-00:00</p>
+        <div class="contacts_sn">
+            <img src="img/inst_logo.png" alt="">
+            <p>@kidebistro</p>
+        </div>
+        <div class="contacts_sn">
+            <img src="img/vk_logo.png" alt="">
+            <p>@kidebistro</p>
+        </div>
+    </div>
+    <div class="map">
+        <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Aacddee0d8bec3c0bffe811c125d8f16fab916a4c0cab81e2edeab640f96f181d&amp;width=100%&amp;height=100%&amp;lang=ru_RU&amp;scroll=true"></script> 
+    </div>
+</div>    

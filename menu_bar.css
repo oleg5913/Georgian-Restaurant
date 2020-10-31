@@ -1,0 +1,84 @@
+.menu_container {
+    margin-left: -3vw;
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+nav.section_choice {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.section_choice li {
+    display: inline-block;
+    padding: 2vw;
+    padding-bottom: 5px;
+}
+
+.section_choice li:hover {
+    padding-bottom: 4px;
+    border-bottom: 1px solid black;
+}
+
+.menu_section {
+    width: 35vw;
+    min-width: 500px;
+    padding: 1vw;
+    margin: 2vw;
+    position: relative;
+}
+
+.section_title {
+    font-size: 1.5em;
+    margin-left: 1vw;
+    margin-bottom: 1vh;
+}
+
+.dish {
+    padding: 1vw;
+    position: relative;
+}
+
+.cost {
+    position: absolute;
+    right: 3%;
+    top: 15%;
+}
+
+.dish_name {
+    display: inline-block;
+    font-weight: normal;
+    max-width: 390px;
+    font-size: 1.2em;
+}
+
+.weight {
+    font-size: 1em;
+}
+
+.dish_description {
+    padding: 1vh 1vh 1vh 0;
+    font-size: 1em;
+}
+
+@media (min-width: 0px) and (max-width: 500px) {
+    nav.section_choice {
+        margin-top: 2vh;
+    }
+    .menu_section {
+        min-width: 290px;
+    }
+    .dish_name {
+        font-size: 1em;
+        max-width: 205px;
+    }
+    .weight {
+        font-size: 0.8em;
+    }
+
+    .dish_description {
+        font-size: 0.8em;
+    }
+}

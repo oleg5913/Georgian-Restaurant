@@ -1,0 +1,31 @@
+<script>
+    $(document).ready(function() {
+    $('li').click(function(event) {
+        var click_target = event.target.id;
+        $('.main_container').load('sections/' + click_target + '.html');
+        $('.navigation_mobile').fadeOut(1);
+        $('html').animate({scrollTop: 0}, 1);
+    })
+})//end ready
+</script>
+    <div class="offers bb">
+        <div class="offers_text">
+            <h1>НАШИ АКЦИИ</h1>
+            <h3>КАЖДЫЙ ПОНЕДЕЛЬНИК</h3>
+            <p>В НАШЕМ БИСТРО ПРИ ЗАКАЗЕ ГРУЗИНСКОГО ВИНА - СКИДКА НА БУТЫЛКУ 15%</p>
+            <h3>ПО ВТОРНИКАМ</h3>
+            <p>МЫ ОБЪЯВЛЯЕМ “ДЕНЬ ХИНКАЛИ” - ПЯТЬ ХИНКАЛИ ПО СПЕЦИАЛЬНОЙ ЦЕНЕ 160 Р!*</p>
+            <h3>"СЧАСТЛИВЫЕ ЧАСЫ"</h3>
+            <p>В БУДНИЕ ДНИ С 16:00 ДО 18:00 ПРИ ЗАКАЗЕ БОКАЛА КРАСНОГО САПЕРАВИ ИЛИ БЕЛОГО РКАЦИТЕЛИ - ВТОРОЙ БОКАЛ В ПОДАРОК !</p>
+            <p class="comment">*При условии заказа хинкали одного вида с 16:00 до 22:00</p>
+        </div>
+    </div>   
+ 
+    <div class="citate bb">
+        <p>Для ценителей грузинской кухни работаем ежедневно, будние дни с 12:00 до 22:00, пятница и суббота с 12:00 до 00:00 </p>
+    </div>
+
+    <ul class="menu_bar bb ">
+        <li class="menu"><p class="menu_button">МЕНЮ</p></li>
+        <li class="bar_card fr"><p class="bar_card_button">БАРНАЯ КАРТА</p></li>
+    </ul>
