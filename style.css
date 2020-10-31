@@ -16,9 +16,8 @@ body {
 .fr {float: right;}
 .ml4 {margin-left: 4vw;}
 .mr4 {margin-right: 4vw;}
-.bt { border-top: 1vh solid #ffd140 ;}
+.bt { border-top: 1vh solid #ffd140;}
 .bb { border-bottom: 1vh solid #ffd140;}
-.menu_bt {border-top: 0.5vh solid #ffd140;}
 
 header {
     background-color: #fff;
@@ -143,39 +142,42 @@ section {
 .offers h1 {
     color: #fff;
     font-weight: normal;  
-    font-size: 2.5em;  
+    font-size: 6vh;  
 }
 
 .offers h3 {
     color: #ffd140;
     font-weight: normal;
-    font-size: 1.8em;
+    font-size: 4vh;
     margin: 3vh 0;
 }
 
 .offers p {
     color: #fff;
-    font-size: 1.3em;
+    font-size: 3vh;
 }
 
 p.comment {
     margin-top: 3vh;
-    font-size: 1em;
+    font-size: 2.5vh;
     color: #d3d3d3;
     font-style: italic;
 }
 
 
 .citate {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6vh 0;
+    line-height: 7vh;
     text-align: center;
 }
 
-.citate p {
-    margin: 0 auto;
+.citateText {
     width: 50vw;
-    padding: 3vh 0;
-    font-size: 2.4em;
-    line-height: 7vh;
+    font-size: 6vh;
+    line-height: 6vh;
     font-family: "Gabriola", sans-serif;
 }
 
@@ -185,8 +187,12 @@ p.comment {
 }
 
 .menu_bar p {
-    font-size: 2.5em;
+    font-size: 5vh;
     color:  #ffd140 ;
+}
+
+.menu_bar li {
+    height: 30vh;
 }
 
 .menu, .bar_card {
@@ -215,6 +221,7 @@ footer {
     padding-top: 2vh;
     display: flex;
     justify-content: space-around;
+    align-items: center;
     padding-bottom: 4vh;
 }
 
@@ -225,7 +232,7 @@ footer * {
 
 .footer_logo_nav {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 }
 
 .footer_navigation {
@@ -237,7 +244,7 @@ footer * {
 .footer_navigation li {
     margin: 1vh;
     color: #fff;
-    font-size: 1.2em;
+    font-size: 3vh;
     padding-bottom: 1px;
 }
 
@@ -258,7 +265,7 @@ footer * {
 .footer_adress_number * {
     display: block;
     color: #fff;
-    font-size: 1.05em;
+    font-size: 3vh;
     text-align: right;
 }
 
@@ -277,7 +284,7 @@ footer * {
 
 .sn_block p {
     color: #fff;
-    font-size: 1.3em;
+    font-size: 3vh;
     line-height: 4vh;
     margin-left: 1vw;
 }
@@ -368,7 +375,9 @@ footer * {
     .citate p {
         width: 70vw;
         font-size: 2em;
-        line-height: 3.2vh;
+    }
+    .offers_text {
+        width: 80vw;
     }
 }
 
@@ -400,5 +409,41 @@ footer * {
     
     footer {
         padding: 0;
+    }
+    .offers h1 {
+        font-size: 4vh;
+    }
+    .offers h3 {
+        font-size: 3vh;
+    }
+    .offers p {
+        font-size: 2.5vh;
+    }
+    p.comment {
+        font-size: 2vh;
+    }
+    .citate {
+        padding: 3vh 0;
+    }
+    .citateText {
+        line-height: 4vh;
+    }
+    .menu_bar p {
+        font-size: 3vh;
+    }
+    .bb {
+        border-bottom: 0.5vh solid #ffd140
+    }
+    .menu_bar li {
+        height: 15vh;
+    }
+    .footer_navigation li {
+        font-size: 2vh;
+    }
+    .sn_block p {
+        font-size: 1.5vh;
+    }
+    .footer_adress_number * {
+        font-size: 1.5vh;
     }
 }
